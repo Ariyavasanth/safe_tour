@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Shield, Navigation, AlertTriangle } from 'lucide-react';
+import { Shield, Navigation, AlertTriangle, MapPin } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase } from '../lib/supabase';
 import { APIProvider, Map, AdvancedMarker, Pin } from '@vis.gl/react-google-maps';
